@@ -20,6 +20,7 @@ OpenCV: To perform video processing tasks, such as segment removal.
 
 AWS S3: Cloud storage for storing original and modified videos.
 
+
 -----Setup Instructions-----
 
 Prerequisites

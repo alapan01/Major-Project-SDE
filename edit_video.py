@@ -9,10 +9,10 @@ import tempfile
 app = FastAPI()
 
 # AWS S3 setup
-AWS_ACCESS_KEY = os.getenv('....')
-AWS_SECRET_KEY = os.getenv('....')
-AWS_REGION = os.getenv('....')
-AWS_BUCKET_NAME = '....'  
+AWS_ACCESS_KEY = os.getenv('...')
+AWS_SECRET_KEY = os.getenv('...')
+AWS_REGION = os.getenv('...')
+AWS_BUCKET_NAME = '...'  
 
 s3_client = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY, region_name=AWS_REGION)
 
