@@ -6,10 +6,10 @@ import os
 app = FastAPI()
 
 # AWS S3 setup
-AWS_ACCESS_KEY = os.getenv('AKIAS66UDGOWUOLQL27S')
-AWS_SECRET_KEY = os.getenv('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')
-AWS_REGION = os.getenv('us-east-1')
-AWS_BUCKET_NAME = 'sdemajorproject'  
+AWS_ACCESS_KEY = os.getenv('...')
+AWS_SECRET_KEY = os.getenv('...')
+AWS_REGION = os.getenv('...')
+AWS_BUCKET_NAME = '...'  
 
 s3_client = boto3.client('s3', aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_KEY, region_name=AWS_REGION)
 
